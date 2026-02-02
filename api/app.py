@@ -24,7 +24,7 @@ def event():
     with open(LOG_PATH, "a", encoding="utf-8") as f:
         f.write(json.dumps(rec) + "\n")
 
-    return jsonify({"ok": True})
+    return jsonify({"okk": True})
 
 @app.get("/health")
 def health():
