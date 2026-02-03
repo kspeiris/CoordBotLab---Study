@@ -153,8 +153,6 @@ This extension supports research on:
 * Lightweight real-time defenses
 * Privacy-preserving security analytics
 
-It complements a systematic literature review on **coordinated bot detection in real-time web/mobile applications**.
-
 ---
 
 ## 🧩 Future Work
