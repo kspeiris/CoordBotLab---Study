@@ -30,7 +30,7 @@ def run_session(client_ip, ua, session, pattern, label, sync_start=None, delay_r
 def main():
     threads = []
 
-    # Humans (uncoordinated, jittery)
+    # Humans 
     for i in range(10):
         ip = f"10.0.0.{i+10}"
         ua = f"Mozilla/5.0 HumanSim/{i}"
@@ -40,7 +40,7 @@ def main():
                              args=(ip, ua, session, pattern, "human", None, (0.15, 0.6)))
         threads.append(t)
 
-    # Single bots (not coordinated)
+    # Single bots 
     for i in range(4):
         ip = f"10.0.2.{i+30}"
         ua = f"Mozilla/5.0 SingleBot/{i}"
@@ -49,7 +49,7 @@ def main():
                              args=(ip, ua, session, BOT_PATTERN, "bot", None, (0.05, 0.15)))
         threads.append(t)
 
-    # Coordinated group (synchronized start + same pattern)
+    # Coordinated group 
     sync_start = time.time() + 2.0
     for i in range(12):
         ip = f"10.0.1.{i+50}"

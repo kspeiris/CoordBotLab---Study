@@ -31,5 +31,5 @@ def health():
     return jsonify({"status": "up"})
 
 if __name__ == "__main__":
-    # IMPORTANT: this is what starts the server
+    #  starts the server
     app.run(host="127.0.0.1", port=5000, debug=True)

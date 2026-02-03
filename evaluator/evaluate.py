@@ -14,7 +14,7 @@ def main():
     events = load_jsonl(EVENTS)
     alerts = load_jsonl(ALERTS)
 
-    # ground truth: if any "coord" events exist, detection should trigger at least once
+    #  if any "coord" events exist, detection should trigger at least once
     coord_events = [e for e in events if e.get("label") == "coord"]
     has_coord = len(coord_events) > 0
 
