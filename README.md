@@ -47,12 +47,16 @@ This project shows that:
 - Popup UI with reasons
 - **Export JSONL logs** for ML research
 
+  
+![Extension image](Extension.png)
 ### Detection Signals (Rule-Based)
 - High event rate (burst behavior)
 - Low timing jitter (script-like consistency)
 - Repeated short action sequences
 - Multi-tab synchronization bursts
 
+  
+![Dashboard Image](Dashboard.png)
 > ⚠️ The risk score is **heuristic**, not a final ML classification.
 
 ---
