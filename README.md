@@ -1,3 +1,13 @@
+Great — thanks for pasting the README 👍
+Your **content is good**, but there are **3 formatting problems** causing the issue you saw.
+
+I’ll explain **what’s wrong** briefly, then give you a **fully fixed README** you can copy-paste and commit.
+
+---
+
+##
+
+
 # CoordBotLab Guard  
 **Coordination-Aware Bot Behavior Detection — Browser Extension**
 
@@ -59,18 +69,17 @@ This project shows that:
 
 ## 🧠 Research Architecture
 
+```text
 Browser Extension
-↓
+        ↓
 Behavioral Events (JSONL)
-↓
+        ↓
 Feature Engineering (offline)
-↓
+        ↓
 ML Models (research phase)
-↓
+        ↓
 Coordinated Bot Detection
-
-yaml
-Copy code
+````
 
 The extension enables **real-world data collection**; machine learning is applied **offline** for accuracy, scalability, and privacy.
 
@@ -94,79 +103,102 @@ COORDBOTLAB/
 │  ├─ popup.css
 │  └─ icons/
 └─ requirements.txt
-🚀 How to install (Chrome Desktop)
-Open chrome://extensions
+```
 
-Enable Developer mode
+---
 
-Click Load unpacked
+## 🚀 How to install (Chrome Desktop)
 
-Select:
+1. Open `chrome://extensions`
+2. Enable **Developer mode**
+3. Click **Load unpacked**
+4. Select the `cordbotlab-extension/` folder
+5. Open any website and interact
+6. Click the extension icon to view the risk score
 
-swift
-Copy code
-cordbotlab-extension/
-Open any website and interact
+---
 
-Click the extension icon to view the risk score
+## 📤 Exporting Data for ML
 
-📤 Exporting Data for ML
 The extension can export anonymized interaction logs:
 
-php-template
-Copy code
+```
 cordbotlab_<session-id>.jsonl
+```
+
 These logs can be transformed into ML features such as:
 
-inter-event timing statistics
+* inter-event timing statistics
+* sequence n-grams
+* burst entropy
+* coordination scores
 
-sequence n-grams
+---
 
-burst entropy
+## 📱 Mobile Notes
 
-coordination scores
+* Mobile Chrome does **not** support desktop extensions
+* On Android, extension-capable browsers (e.g., Kiwi) may be used for demonstration
+* ML training and evaluation remain platform-independent
 
-📱 Mobile Notes
-Mobile Chrome does not support desktop extensions.
+---
 
-On Android, extension-capable browsers (e.g., Kiwi) may be used for demonstration.
+## 🔐 Privacy & Ethics
 
-ML training and evaluation remain platform-independent.
+* No keystroke values captured
+* No page content collected
+* No persistent identifiers
+* User-controlled data export
 
-🔐 Privacy & Ethics
-No keystroke values captured
+This project is intended **only for defensive research and education**.
 
-No page content collected
+---
 
-No persistent identifiers
+## 🎓 Academic Relevance
 
-User-controlled data export
-
-This project is intended only for defensive research and education.
-
-🎓 Academic Relevance
 This extension supports research on:
 
-Behavioral biometrics
+* Behavioral biometrics
+* Coordination-aware bot detection
+* Lightweight real-time defenses
+* Privacy-preserving security analytics
 
-Coordination-aware bot detection
+It complements a systematic literature review on **coordinated bot detection in real-time web/mobile applications**.
 
-Lightweight real-time defenses
+---
 
-Privacy-preserving security analytics
+## 🧩 Future Work
 
-It complements a systematic literature review on coordinated bot detection in real-time web/mobile applications.
+* ML feature extraction pipeline
+* Unsupervised coordination detection
+* Threshold sensitivity analysis
+* Cross-platform behavior modeling
 
-🧩 Future Work
-ML feature extraction pipeline
+---
 
-Unsupervised coordination detection
+## 👤 Author
 
-Threshold sensitivity analysis
-
-Cross-platform behavior modeling
-
-👤 Author
-Kavindu Peiris
+**Kavindu Peiris**
 Software Engineering Student
 Research Focus: Coordinated Bot Detection, Real-Time Security, Behavioral Analysis
+
+```
+
+---
+
+## ✅ What this fixes
+- ✅ Code blocks are properly closed
+- ✅ Headings render correctly
+- ✅ No stray `yaml / Copy code`
+- ✅ GitHub will render everything cleanly
+- ✅ Ready for LinkedIn & portfolio
+
+---
+
+If you want, next I can:
+- shorten this for **GitHub showcase style**
+- convert it to **IEEE project description**
+- add **badges** (status, tech stack)
+
+Just tell me 👍
+```
