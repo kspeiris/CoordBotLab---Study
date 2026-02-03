@@ -3,7 +3,7 @@
 
 ![Hero Image](hero.png)
 
-> A real-world, privacy-preserving **browser extension** that operationalizes coordination-aware bot detection research by collecting lightweight behavioral signals and producing explainable risk indicators — **without building or modifying any web system**.
+> A real-world, privacy-preserving **browser extension** that operationalizes coordination-aware bot detection research by collecting lightweight behavioral signals and producing explainable risk indicators ; **without building or modifying any web system**.
 
 ---
 
