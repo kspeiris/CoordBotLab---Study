@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>CordBotLab Guard</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>CordBotLab Guard</h1>
+
+    <div class="row">
+      <div class="label">Risk score</div>
+      <div id="score" class="score">--</div>
+    </div>
+
+    <div class="row small">
+      <div>Recent events: <span id="recent">--</span></div>
+      <div>Total events: <span id="total">--</span></div>
+    </div>
+
+    <div class="box">
+      <div class="label">Reasons</div>
+      <ul id="reasons" class="reasons"></ul>
+    </div>
+
+    <div class="buttons">
+      <button id="refresh">Refresh</button>
+      <button id="export">Export JSONL</button>
+    </div>
+
+    <div id="status" class="status"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

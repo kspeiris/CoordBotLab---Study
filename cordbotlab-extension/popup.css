@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  width: 320px;
+}
+.wrap {
+  padding: 12px;
+}
+h1 {
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 8px 0;
+}
+.row.small {
+  font-size: 12px;
+  opacity: 0.8;
+}
+.label {
+  font-size: 12px;
+  opacity: 0.8;
+}
+.score {
+  font-size: 20px;
+  font-weight: bold;
+}
+.box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.reasons {
+  margin: 8px 0 0 18px;
+  padding: 0;
+  font-size: 12px;
+}
+.buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+button {
+  flex: 1;
+  padding: 8px;
+  cursor: pointer;
+}
+.status {
+  margin-top: 8px;
+  font-size: 12px;
+  opacity: 0.85;
+}
