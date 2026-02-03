@@ -1,13 +1,3 @@
-Great — thanks for pasting the README 👍
-Your **content is good**, but there are **3 formatting problems** causing the issue you saw.
-
-I’ll explain **what’s wrong** briefly, then give you a **fully fixed README** you can copy-paste and commit.
-
----
-
-##
-
-
 # CoordBotLab Guard  
 **Coordination-Aware Bot Behavior Detection — Browser Extension**
 
@@ -181,24 +171,3 @@ It complements a systematic literature review on **coordinated bot detection in 
 **Kavindu Peiris**
 Software Engineering Student
 Research Focus: Coordinated Bot Detection, Real-Time Security, Behavioral Analysis
-
-```
-
----
-
-## ✅ What this fixes
-- ✅ Code blocks are properly closed
-- ✅ Headings render correctly
-- ✅ No stray `yaml / Copy code`
-- ✅ GitHub will render everything cleanly
-- ✅ Ready for LinkedIn & portfolio
-
----
-
-If you want, next I can:
-- shorten this for **GitHub showcase style**
-- convert it to **IEEE project description**
-- add **badges** (status, tech stack)
-
-Just tell me 👍
-```
